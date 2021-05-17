@@ -34,5 +34,5 @@ village:
     --ty 2021
 
 update-plex:
-	cp builds/compressed/*.mp3 ../../Music/bandcamp/Jim\ Kang
+	cp builds/compressed/*.mp3 ../../Music/bandcamp/Jim\ Kang/Many\ Weeks
 	cd ../../Music/bandcamp/ && ./upload.sh
