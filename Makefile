@@ -33,6 +33,13 @@ village:
     --ta "Jim Kang" \
     --ty 2021
 
+healing:
+	lame "builds/uncompressed/Advice and Healing.wav" "builds/compressed/Advice and Healing.mp3" \
+    --tt "Advice and Healing" \
+    --tl "Many Weeks" \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp builds/compressed/*.mp3 ../../Music/bandcamp/Jim\ Kang/Many\ Weeks
 	cd ../../Music/bandcamp/ && ./upload.sh
