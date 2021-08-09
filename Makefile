@@ -48,6 +48,14 @@ buggy:
     --ta "Jim Kang" \
     --ty 2021
 
+europa:
+	lame "builds/uncompressed/Europa.wav" "builds/compressed/Weeks of Songs/Europa.mp3" \
+    --tt "Europa" \
+    --tl "Weeks of Songs" \
+    --tn 10 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
