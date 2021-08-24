@@ -56,6 +56,17 @@ europa:
     --ta "Jim Kang" \
     --ty 2021
 
+haiku-motet:
+	lame "builds/uncompressed/haiku-motet.wav" "builds/compressed/Weeks of Songs/Haiku Motet.mp3" \
+    --tt "Haiku Motet" \
+    --tl "Weeks of Songs" \
+    --tn 11 \
+    --ta "Jim Kang" \
+    --ty 2021
+
+update-plex:
+	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
+	cd ../../Music/bandcamp/ && ./upload.sh
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
