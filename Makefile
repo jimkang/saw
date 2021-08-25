@@ -67,6 +67,3 @@ haiku-motet:
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
-update-plex:
-	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
-	cd ../../Music/bandcamp/ && ./upload.sh
