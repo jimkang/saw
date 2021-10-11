@@ -75,3 +75,9 @@ corridor:
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
+
+back-up:
+	rsync -a $(HOMEDIR)/ $(USER)@$(SERVER):/$(APPDIR) \
+		--exclude .git \
+    --omit-dir-times \
+    --no-perms
