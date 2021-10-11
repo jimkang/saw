@@ -64,6 +64,14 @@ haiku-motet:
     --ta "Jim Kang" \
     --ty 2021
 
+corridor:
+	lame "builds/uncompressed/Illuminated Corridor.wav" "builds/compressed/Weeks of Songs/Illuminated Corridor.mp3" \
+    --tt "Illuminated Corridor" \
+    --tl "Weeks of Songs" \
+    --tn 12 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
