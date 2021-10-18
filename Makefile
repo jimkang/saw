@@ -72,6 +72,14 @@ corridor:
     --ta "Jim Kang" \
     --ty 2021
 
+feast:
+	lame "builds/uncompressed/Midnight Feast.wav" "builds/compressed/Weeks of Songs/Midnight Feast.mp3" \
+    --tt "Midnight Feast" \
+    --tl "Weeks of Songs" \
+    --tn 13 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
