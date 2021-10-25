@@ -80,6 +80,14 @@ feast:
     --ta "Jim Kang" \
     --ty 2021
 
+pond:
+	lame "builds/uncompressed/Walk Around the Pond Three Times.wav" "builds/compressed/Weeks of Songs/Walk Around the Pond Three Times.mp3" \
+    --tt "Walk Around the Pond Three Times" \
+    --tl "Weeks of Songs" \
+    --tn 14 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
