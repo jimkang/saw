@@ -88,6 +88,14 @@ pond:
     --ta "Jim Kang" \
     --ty 2021
 
+centipedes:
+	lame "builds/uncompressed/Centipedes.wav" "builds/compressed/Weeks of Songs/Centipedes of Many Sizes.mp3" \
+    --tt "Centipedes of Many Sizes" \
+    --tl "Weeks of Songs" \
+    --tn 12 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
