@@ -92,11 +92,12 @@ centipedes:
 	lame "builds/uncompressed/Centipedes.wav" "builds/compressed/Weeks of Songs/Centipedes of Many Sizes.mp3" \
     --tt "Centipedes of Many Sizes" \
     --tl "Weeks of Songs" \
-    --tn 12 \
+    --tn 15 \
     --ta "Jim Kang" \
     --ty 2021
 
 update-plex:
+	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
 
