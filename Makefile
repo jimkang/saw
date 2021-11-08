@@ -96,6 +96,14 @@ centipedes:
     --ta "Jim Kang" \
     --ty 2021
 
+bogs:
+	lame "builds/uncompressed/Searching the Bogs.wav" "builds/compressed/Weeks of Songs/Searching the Bogs.mp3" \
+    --tt "Searching the Bogs" \
+    --tl "Weeks of Songs" \
+    --tn 16 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
