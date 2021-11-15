@@ -104,6 +104,14 @@ bogs:
     --ta "Jim Kang" \
     --ty 2021
 
+reconsidering:
+	lame "builds/uncompressed/Reconsidering Your Destiny.wav" "builds/compressed/Weeks of Songs/Reconsidering Your Destiny.mp3" \
+    --tt "Reconsidering Your Destiny" \
+    --tl "Weeks of Songs" \
+    --tn 17 \
+    --ta "Jim Kang" \
+    --ty 2021
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
