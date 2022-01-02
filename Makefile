@@ -112,6 +112,14 @@ reconsidering:
     --ta "Jim Kang" \
     --ty 2021
 
+2022-01-01:
+	lame "builds/uncompressed/2022-01-01.wav" "builds/compressed/Weeks of Songs/2022-01-01.mp3" \
+    --tt "2022-01-01" \
+    --tl "Weeks of Songs" \
+    --tn 18 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
