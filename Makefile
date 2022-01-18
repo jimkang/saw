@@ -120,6 +120,14 @@ reconsidering:
     --ta "Jim Kang" \
     --ty 2022
 
+burbler:
+	lame "builds/uncompressed/inchoate-burbler.wav" "builds/compressed/Weeks of Songs/Inchoate Burbler.mp3" \
+    --tt "Inchoate Burbler" \
+    --tl "Weeks of Songs" \
+    --tn 19 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
