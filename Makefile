@@ -2,7 +2,7 @@ include config.mk
 
 HOMEDIR = $(shell pwd)
 
-pushall:
+pushall: update-plex back-up
 	git push origin main
 
 robot:
