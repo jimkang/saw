@@ -128,6 +128,14 @@ burbler:
     --ta "Jim Kang" \
     --ty 2022
 
+ladders:
+	lame "builds/uncompressed/Energy Ladders.wav" "builds/compressed/Weeks of Songs/Energy Ladders.mp3" \
+    --tt "Energy Ladders" \
+    --tl "Weeks of Songs" \
+    --tn 20 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
