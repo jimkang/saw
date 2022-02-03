@@ -136,6 +136,14 @@ ladders:
     --ta "Jim Kang" \
     --ty 2022
 
+message:
+	lame "builds/uncompressed/Message from Afar.wav" "builds/compressed/Weeks of Songs/Message from Afar.mp3" \
+    --tt "Message from Afar" \
+    --tl "Weeks of Songs" \
+    --tn 21 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
