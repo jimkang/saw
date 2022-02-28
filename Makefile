@@ -144,6 +144,38 @@ message:
     --ta "Jim Kang" \
     --ty 2022
 
+winding:
+	lame "builds/uncompressed/Winding Down.wav" "builds/compressed/Weeks of Songs/Winding Down.mp3" \
+    --tt "Winding Down" \
+    --tl "Weeks of Songs" \
+    --tn 22 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+robot-guitar-center:
+	lame "builds/uncompressed/Two Robots Loitering at Guitar Center.wav" "builds/compressed/Weeks of Songs/Two Robots Loitering at Guitar Center.mp3" \
+    --tt "Two Robots Loitering at Guitar Center" \
+    --tl "Weeks of Songs" \
+    --tn 23 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+conversation:
+	lame "builds/uncompressed/The Wizards' Enlightening Conversation.wav" "builds/compressed/Weeks of Songs/The Wizards' Enlightening Conversation.mp3" \
+    --tt "The Wizards' Enlightening Conversation" \
+    --tl "Weeks of Songs" \
+    --tn 24 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+hull-ruptures:
+	lame "builds/uncompressed/Hull Ruptures.wav" "builds/compressed/Weeks of Songs/Hull Ruptures.mp3" \
+    --tt "Hull Ruptures" \
+    --tl "Weeks of Songs" \
+    --tn 25 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
