@@ -176,6 +176,14 @@ hull-ruptures:
     --ta "Jim Kang" \
     --ty 2022
 
+pyroclasmic-info:
+	lame "builds/uncompressed/Pyroclasmic info mix.wav" "builds/compressed/Weeks of Songs/Pyroclasmic Slooch (Info Mix).mp3" \
+    --tt "HPyroclasmic Slooch (Info Mix)" \
+    --tl "Weeks of Songs" \
+    --tn 26 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
