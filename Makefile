@@ -179,16 +179,24 @@ hull-ruptures:
 pyroclasmic-info:
 	lame "builds/uncompressed/Pyroclasmic info mix.wav" "builds/compressed/Weeks of Songs/Pyroclasmic Slooch (Info Mix).mp3" \
     --tt "Pyroclasmic Slooch (Info Mix)" \
-    --tl "Weeks of Songs" \
-    --tn 26 \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 1 \
     --ta "Jim Kang" \
     --ty 2022
 
 pyroclasmic-extra-robot:
 	lame "builds/uncompressed/Pyroclasmic-extra-robot.wav" "builds/compressed/Weeks of Songs/Pyroclasmic Slooch (Extra Robot Mix).mp3" \
     --tt "Pyroclasmic Slooch (Extra Robot Mix)" \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 2 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+pyroclasmic:
+	lame "builds/uncompressed/Pyroclasmic-robot-facts.wav" "builds/compressed/Weeks of Songs/Pyroclasmic Slooch.mp3" \
+    --tt "Pyroclasmic Slooch" \
     --tl "Weeks of Songs" \
-    --tn 27 \
+    --tn 26 \
     --ta "Jim Kang" \
     --ty 2022
 
