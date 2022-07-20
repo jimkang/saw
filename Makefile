@@ -200,6 +200,14 @@ pyroclasmic:
     --ta "Jim Kang" \
     --ty 2022
 
+howling:
+	lame "builds/uncompressed/howling.wav" "builds/compressed/Weeks of Songs/Howling.mp3" \
+    --tt "Howling" \
+    --tl "Weeks of Songs" \
+    --tn 27 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
