@@ -216,6 +216,22 @@ cool-breeze:
     --ta "Jim Kang" \
     --ty 2022
 
+tower-climb:
+	lame "builds/uncompressed/Tower Climb.wav" "builds/compressed/Weeks of Songs/Tower Climb.mp3" \
+    --tt "Tower Climb" \
+    --tl "Weeks of Songs" \
+    --tn 29 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+tower-climb-grunts:
+	lame "builds/uncompressed/Tower Climb with Grunts.wav" "builds/compressed/Weeks of Songs/Tower Climb (with grunts).mp3" \
+    --tt "Tower Climb (with grunts)" \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 3 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
