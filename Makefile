@@ -232,6 +232,22 @@ tower-climb-grunts:
     --ta "Jim Kang" \
     --ty 2022
 
+tower-climb-exit:
+	lame "builds/uncompressed/Tower Climb-entrance-exit.wav" "builds/compressed/Weeks of Songs/Exit music: Tower Climb.mp3" \
+    --tt "Exit Music: Tower Climb" \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 4 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+space-mission-entrance:
+	lame "builds/uncompressed/Space Mission-exit-entrance.wav" "builds/compressed/Weeks of Songs/Entrance music: Space Mission.mp3" \
+    --tt "Entrance Music: Space Mission" \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 5 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
