@@ -248,6 +248,23 @@ space-mission-entrance:
     --ta "Jim Kang" \
     --ty 2022
 
+wikimedia-swell:
+	lame "builds/uncompressed/Wikimedia-swell.wav" "builds/compressed/Weeks of Songs/Wikimedia Swell.mp3" \
+    --tt "Wikimedia Swell" \
+    --tl "Weeks of Songs Bonus Tracks" \
+    --tn 6 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+stockholm:
+	lame "builds/uncompressed/Stockholm.wav" "builds/compressed/Stockholm.mp3" \
+    --tt "Stockholm" \
+    --tl "Looptober" \
+    --tn 1 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
