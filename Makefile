@@ -257,8 +257,16 @@ wikimedia-swell:
     --ty 2022
 
 stockholm:
-	lame "builds/uncompressed/Stockholm.wav" "builds/compressed/Stockholm.mp3" \
+	lame "builds/uncompressed/Stockholm.wav" "builds/compressed/Looptober/Stockholm.mp3" \
     --tt "Stockholm" \
+    --tl "Looptober" \
+    --tn 1 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+lapsang:
+	lame "builds/uncompressed/Lapsang.wav" "builds/compressed/Looptober/Preparing Lapsang Souchong.mp3" \
+    --tt "Preparing Lapsang Souchong" \
     --tl "Looptober" \
     --tn 1 \
     --ta "Jim Kang" \
@@ -268,6 +276,7 @@ stockholm:
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
+	cp -r builds/compressed/Looptober ../../Music/bandcamp/Jim\ Kang/
 	cd ../../Music/bandcamp/ && ./upload.sh
 
 back-up:
