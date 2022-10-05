@@ -268,7 +268,7 @@ lapsang:
 	lame "builds/uncompressed/Lapsang.wav" "builds/compressed/Looptober/Preparing Lapsang Souchong.mp3" \
     --tt "Preparing Lapsang Souchong" \
     --tl "Looptober" \
-    --tn 1 \
+    --tn 2 \
     --ta "Jim Kang" \
     --ty 2022
 
