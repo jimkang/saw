@@ -272,6 +272,13 @@ lapsang:
     --ta "Jim Kang" \
     --ty 2022
 
+corridor:
+	lame "builds/uncompressed/Corridor.wav" "builds/compressed/Looptober/Corridor.mp3" \
+    --tt "Corridor" \
+    --tl "Looptober" \
+    --tn 3 \
+    --ta "Jim Kang" \
+    --ty 2022
 
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
