@@ -280,6 +280,14 @@ corridor:
     --ta "Jim Kang" \
     --ty 2022
 
+outcropping:
+	lame "builds/uncompressed/Outcropping of Death.wav" "builds/compressed/Looptober/Outcropping of Death.mp3" \
+    --tt "Outcropping of Death" \
+    --tl "Looptober" \
+    --tn 4 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
