@@ -64,7 +64,7 @@ haiku-motet:
     --ta "Jim Kang" \
     --ty 2021
 
-corridor:
+illuminated-corridor:
 	lame "builds/uncompressed/Illuminated Corridor.wav" "builds/compressed/Weeks of Songs/Illuminated Corridor.mp3" \
     --tt "Illuminated Corridor" \
     --tl "Weeks of Songs" \
@@ -285,6 +285,14 @@ outcropping:
     --tt "Outcropping of Death" \
     --tl "Looptober" \
     --tn 4 \
+    --ta "Jim Kang" \
+    --ty 2022
+
+ninjapros:
+	lame "builds/uncompressed/Ninja pros and cons.wav" "builds/compressed/Looptober/Ninja Weighing the Pros and the Cons.mp3" \
+    --tt "A Ninja Weighing the Pros and the Cons" \
+    --tl "Looptober" \
+    --tn 5 \
     --ta "Jim Kang" \
     --ty 2022
 
