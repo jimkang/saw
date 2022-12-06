@@ -296,6 +296,14 @@ ninjapros:
     --ta "Jim Kang" \
     --ty 2022
 
+gear:
+	lame "builds/uncompressed/Eighth Gear.wav" "builds/compressed/Weeks of Songs/Eighth Gear.mp3" \
+    --tt "Eighth Gear" \
+    --tl "Weeks of Songs" \
+    --tn 31 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
