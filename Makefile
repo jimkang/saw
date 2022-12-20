@@ -304,6 +304,14 @@ gear:
     --ta "Jim Kang" \
     --ty 2022
 
+landing:
+	lame "builds/uncompressed/Landing-mixed.wav" "builds/compressed/Weeks of Songs/Landing.mp3" \
+    --tt "Landing" \
+    --tl "Weeks of Songs" \
+    --tn 32 \
+    --ta "Jim Kang" \
+    --ty 2022
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
