@@ -312,6 +312,14 @@ landing:
     --ta "Jim Kang" \
     --ty 2022
 
+rabbit:
+	lame "../sig/builds/uncompressed/fun-why-not/Rabbit's Shop.wav" "builds/compressed/Weeks of Songs/Rabbit's Shop.mp3" \
+    --tt "Rabbit's Shop" \
+    --tl "Weeks of Songs" \
+    --tn 33 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
