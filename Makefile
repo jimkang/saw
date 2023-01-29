@@ -316,7 +316,7 @@ rabbit:
 	lame "../sig/builds/uncompressed/fun-why-not/Rabbit's Shop.wav" "builds/compressed/Weeks of Songs/Rabbit's Shop.mp3" \
     --tt "Rabbit's Shop" \
     --tl "Weeks of Songs" \
-    --tn 33 \
+    --tn 34 \
     --ta "Jim Kang" \
     --ty 2023
 
