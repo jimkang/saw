@@ -320,6 +320,14 @@ rabbit:
     --ta "Jim Kang" \
     --ty 2023
 
+miasma:
+	lame "../saw/builds/uncompressed/miasma.wav" "builds/compressed/Weeks of Songs/Grow Together with the Miasma.mp3" \
+    --tt "Grow Together with the Miasma" \
+    --tl "Weeks of Songs" \
+    --tn 35 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
