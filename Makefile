@@ -328,6 +328,14 @@ miasma:
     --ta "Jim Kang" \
     --ty 2023
 
+pressures:
+	lame "../saw/builds/uncompressed/pressures-accumulating.wav" "builds/compressed/Weeks of Songs/Pressures Accumulating.mp3" \
+    --tt "Pressures Accumulating" \
+    --tl "Weeks of Songs" \
+    --tn 36 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
