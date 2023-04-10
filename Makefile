@@ -336,6 +336,22 @@ pressures:
     --ta "Jim Kang" \
     --ty 2023
 
+carrying-on:
+	lame "../saw/builds/uncompressed/carrying-on-shorter.wav" "builds/compressed/Weeks of Songs/The Sound of Carrying On No Matter How Terrible It Gets.mp3" \
+    --tt "The Sound of Carrying On No Matter How Terrible It Gets" \
+    --tl "Weeks of Songs" \
+    --tn 37 \
+    --ta "Jim Kang" \
+    --ty 2023
+
+in-a-bomb:
+	lame "../saw/builds/uncompressed/slow-bomb-mixed.wav" "builds/compressed/Weeks of Songs/In a Bomb.mp3" \
+    --tt "In a Bomb" \
+    --tl "Weeks of Songs" \
+    --tn 38 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
