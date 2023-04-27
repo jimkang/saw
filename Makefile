@@ -352,6 +352,15 @@ in-a-bomb:
     --ta "Jim Kang" \
     --ty 2023
 
+fells:
+	lame "../saw/builds/uncompressed/crackle-graphback2.wav" "builds/compressed/Weeks of Songs/Middlesex Fells.mp3" \
+    --tt "Middlesex Fells (v2)" \
+    --tl "Weeks of Songs" \
+    --tn 39 \
+		--tv 1 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
