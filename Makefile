@@ -361,6 +361,14 @@ fells:
     --ta "Jim Kang" \
     --ty 2023
 
+ghost-banquet:
+	lame "../sig/builds/uncompressed/Ghost Banquet Speech and Award Presentation.wav" "builds/compressed/Weeks of Songs/Ghost Banquet Speech and Award Presentation.mp3" \
+    --tt "Ghost Banquet Speech and Award Presentation" \
+    --tl "Weeks of Songs" \
+    --tn 40 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
