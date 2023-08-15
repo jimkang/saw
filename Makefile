@@ -369,6 +369,14 @@ ghost-banquet:
     --ta "Jim Kang" \
     --ty 2023
 
+scrambled-plea:
+	lame "builds/uncompressed/scrambled-plea.wav" "builds/compressed/Weeks of Songs/Scrambled Plea.mp3" \
+    --tt "Scrambled Plea" \
+    --tl "Weeks of Songs" \
+    --tn 41 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
