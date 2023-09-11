@@ -377,6 +377,14 @@ scrambled-plea:
     --ta "Jim Kang" \
     --ty 2023
 
+scandinavian:
+	lame "builds/uncompressed/Scandinavian Dance.wav" "builds/compressed/Weeks of Songs/Imagined Scandinavian Dance.mp3" \
+    --tt "Imagined Scandinavian Dance" \
+    --tl "Weeks of Songs" \
+    --tn 42 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
