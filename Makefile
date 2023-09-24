@@ -385,6 +385,14 @@ scandinavian:
     --ta "Jim Kang" \
     --ty 2023
 
+orb:
+	lame "builds/uncompressed/The Orb - Ascending.wav" "builds/compressed/Weeks of Songs/The Orb, Ascending.mp3" \
+    --tt "The Orb, Ascending" \
+    --tl "Weeks of Songs" \
+    --tn 43 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
