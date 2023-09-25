@@ -393,6 +393,14 @@ orb:
     --ta "Jim Kang" \
     --ty 2023
 
+walkways:
+	lame "builds/uncompressed/moving-walkways.wav" "builds/compressed/Weeks of Songs/Moving Walkways.mp3" \
+    --tt "Moving Walkways" \
+    --tl "Weeks of Songs" \
+    --tn 44 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
