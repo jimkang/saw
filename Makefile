@@ -401,6 +401,14 @@ walkways:
     --ta "Jim Kang" \
     --ty 2023
 
+signals:
+	lame "builds/uncompressed/signals-in-the-valley.wav" "builds/compressed/Weeks of Songs/Signals in the Valley.mp3" \
+    --tt "Signals in the Valley" \
+    --tl "Weeks of Songs" \
+    --tn 45 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/

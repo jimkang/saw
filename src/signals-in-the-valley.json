@@ -1,0 +1,105 @@
+{
+  "seed": "valley",
+  "players": [
+    {
+      "amp": 0.5,
+      "canNextRespondAtTime": 0,
+      "evaluationWindowSizeInEvents": 4,
+      "id": "player-gjQO",
+      "label": "a",
+      "lastStarted": "0",
+      "pan": 1,
+      "position": {
+        "x": 80.4699999999998,
+        "y": 178.30999999999997
+      },
+      "responseStrategyNames": [
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "harmonize",
+        "harmonize",
+        "newriff",
+        "newriff",
+        "newriff",
+        "newriff"
+      ],
+      "sampleIndex": 2,
+      "stopped": "false",
+      "tickSecs": 0.5,
+      "uiState": {
+        "selected": true
+      },
+      "uninterruptibleWindowLength": "1",
+      "evaluationWindow": []
+    },
+    {
+      "amp": 0.4,
+      "canNextRespondAtTime": 0,
+      "evaluationWindowSizeInEvents": 4,
+      "id": "player-VcEC",
+      "label": "b",
+      "lastStarted": "0",
+      "pan": 0,
+      "position": {
+        "x": 67.5099999999993,
+        "y": 49.65000000000019
+      },
+      "responseStrategyNames": [
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "harmonize",
+        "harmonize",
+        "harmonize",
+        "harmonize",
+        "newriff",
+        "newriff"
+      ],
+      "sampleIndex": 7,
+      "stopped": "false",
+      "tickSecs": 0.5,
+      "uiState": {
+        "selected": false
+      },
+      "evaluationWindow": []
+    },
+    {
+      "amp": 0.3,
+      "canNextRespondAtTime": 0,
+      "evaluationWindowSizeInEvents": 2,
+      "id": "player-fQAK",
+      "label": "d",
+      "lastStarted": "0",
+      "pan": -1,
+      "position": {
+        "x": 32.58999999999986,
+        "y": 151.0200000000002
+      },
+      "responseStrategyNames": [
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "echo",
+        "harmonize",
+        "harmonize",
+        "harmonize",
+        "newriff",
+        "newriff"
+      ],
+      "sampleIndex": 1,
+      "stopped": "false",
+      "tickSecs": 0.5,
+      "uiState": {
+        "selected": false
+      },
+      "evaluationWindow": []
+    }
+  ]
+}
