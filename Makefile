@@ -405,7 +405,15 @@ signals:
 	lame "builds/uncompressed/signals-in-the-valley.wav" "builds/compressed/Weeks of Songs/Signals in the Valley.mp3" \
     --tt "Signals in the Valley" \
     --tl "Weeks of Songs" \
-    --tn 45 \
+    --tn 46 \
+    --ta "Jim Kang" \
+    --ty 2023
+
+doing-things:
+	lame "builds/uncompressed/Doing Things.wav" "builds/compressed/Weeks of Songs/Doing Things.mp3" \
+    --tt "Doing Things" \
+    --tl "Weeks of Songs" \
+    --tn 47 \
     --ta "Jim Kang" \
     --ty 2023
 
