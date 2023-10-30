@@ -417,6 +417,14 @@ doing-things:
     --ta "Jim Kang" \
     --ty 2023
 
+instructions:
+	lame "builds/uncompressed/instructions-for-your-next-life.wav" "builds/compressed/Weeks of Songs/Instructions for Your Next Life.mp3" \
+    --tt "Instructions for Your Next Life" \
+    --tl "Weeks of Songs" \
+    --tn 48 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
