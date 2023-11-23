@@ -425,6 +425,14 @@ instructions:
     --ta "Jim Kang" \
     --ty 2023
 
+fortress:
+	lame "builds/uncompressed/Space going-3.wav" "builds/compressed/Weeks of Songs/Flying Fortress.mp3" \
+    --tt "Flying Fortress" \
+    --tl "Weeks of Songs" \
+    --tn 49 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
