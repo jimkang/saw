@@ -433,6 +433,14 @@ fortress:
     --ta "Jim Kang" \
     --ty 2023
 
+phase:
+	lame "builds/uncompressed/Phase Ticks.wav" "builds/compressed/Weeks of Songs/Phase the Blood.mp3" \
+    --tt "Phase the Blood" \
+    --tl "Weeks of Songs" \
+    --tn 51 \
+    --ta "Jim Kang" \
+    --ty 2023
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
