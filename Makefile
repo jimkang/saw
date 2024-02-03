@@ -441,6 +441,14 @@ phase:
     --ta "Jim Kang" \
     --ty 2023
 
+lamp:
+	lame "builds/uncompressed/l-amp.wav" "builds/compressed/Weeks of Songs/L-Amp.mp3" \
+    --tt "L-Amp" \
+    --tl "Weeks of Songs" \
+    --tn 52 \
+    --ta "Jim Kang" \
+    --ty 2024
+
 update-plex:
 	mkdir -p ../../Music/bandcamp/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
