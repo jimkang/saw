@@ -449,14 +449,22 @@ lamp:
     --ta "Jim Kang" \
     --ty 2024
 
+skisk:
+	lame "builds/uncompressed/Skisk Skisk Skisk.wav" "builds/compressed/Weeks of Songs/Skisk Skisk Skisk.mp3" \
+    --tt "Skisk Skisk Skisk" \
+    --tl "Weeks of Songs" \
+    --tn 53 \
+    --ta "Jim Kang" \
+    --ty 2024
+
 update-plex:
-	mkdir -p ../../Music/bandcamp/Jim\ Kang
-	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/bandcamp/Jim\ Kang/
-	cp -r builds/compressed/Looptober ../../Music/bandcamp/Jim\ Kang/
-	cd ../../Music/bandcamp/ && ./upload.sh
+	mkdir -p ../../Music/Jim\ Kang
+	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
+	cp -r builds/compressed/Looptober ../../Music/Jim\ Kang/
+	cd ../../Music/ && ./upload.sh
 
 back-up:
-	rsync -a $(HOMEDIR)/ $(USER)@$(SERVER):/$(APPDIR) \
+	rsync -a $(HOMEDIR)/ $(USER)@$(SERVER):$(APPDIR) \
 		--exclude .git \
     --omit-dir-times \
     --no-perms
