@@ -457,6 +457,15 @@ skisk:
     --ta "Jim Kang" \
     --ty 2024
 
+hive:
+	lame "src/diamond/improvising-hive.wav" "builds/compressed/Weeks of Songs/Improvising Hive.mp3" \
+    --tt "Improvising Hive" \
+    --tl "Weeks of Songs" \
+    --tn 55 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
