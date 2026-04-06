@@ -465,6 +465,13 @@ hive:
     --ta "Jim Kang" \
     --ty 2026
 
+kola:
+	lame "builds/uncompressed/kepler-kola.wav" "builds/compressed/Weeks of Songs/Kepler Kola.mp3" \
+    --tt "Kepler Kola" \
+    --tl "Weeks of Songs" \
+    --tn 56 \
+    --ta "Jim Kang" \
+    --ty 2026
 
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
