@@ -473,6 +473,14 @@ kola:
     --ta "Jim Kang" \
     --ty 2026
 
+digestion:
+	lame "builds/uncompressed/Complete Digestion.wav" "builds/compressed/Weeks of Songs/Complete Digestion.mp3" \
+    --tt "Complete Digestion" \
+    --tl "Weeks of Songs" \
+    --tn 57 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
