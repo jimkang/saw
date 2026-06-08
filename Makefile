@@ -481,6 +481,38 @@ digestion:
     --ta "Jim Kang" \
     --ty 2026
 
+organ-engine:
+	lame "src/takeoff/organ-engine.wav" "builds/compressed/Weeks of Songs/Organ Engine.mp3" \
+    --tt "Organ Engine" \
+    --tl "Weeks of Songs" \
+    --tn 58 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+intro:
+	lame "builds/uncompressed/Intro.wav" "builds/compressed/Weeks of Songs/Intro.mp3" \
+    --tt "Intro" \
+    --tl "Weeks of Songs" \
+    --tn 59 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+slug:
+	lame "builds/uncompressed/fanfare-for-the-slug-mixed.wav" "builds/compressed/Weeks of Songs/Fanfare for the Slug.mp3" \
+    --tt "Fanfare for the Slug" \
+    --tl "Weeks of Songs" \
+    --tn 60 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+save-time:
+	lame "builds/uncompressed/save-time-online.wav" "builds/compressed/Weeks of Songs/Save Time Online.mp3" \
+    --tt "Save Time Online" \
+    --tl "Weeks of Songs" \
+    --tn 61 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
