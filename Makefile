@@ -513,6 +513,14 @@ save-time:
     --ta "Jim Kang" \
     --ty 2026
 
+expect-delays:
+	lame "builds/uncompressed/expect-delays-karts.wav" "builds/compressed/Weeks of Songs/Expect Delays, Karts.mp3" \
+    --tt "Expect Delays, Karts" \
+    --tl "Weeks of Songs" \
+    --tn 62 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
