@@ -523,7 +523,7 @@ expect-delays:
 
 puzzle-lurching:
 	lame "builds/uncompressed/Puzzle Lurching.wav" "builds/compressed/Weeks of Songs/Puzzle Lurching.mp3" \
-    --tt "Puzzle Lunching" \
+    --tt "Puzzle Lurching" \
     --tl "Weeks of Songs" \
     --tn 63 \
     --ta "Jim Kang" \
