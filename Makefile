@@ -521,6 +521,14 @@ expect-delays:
     --ta "Jim Kang" \
     --ty 2026
 
+puzzle-lurching:
+	lame "builds/uncompressed/Puzzle Lurching.wav" "builds/compressed/Weeks of Songs/Puzzle Lurching.mp3" \
+    --tt "Puzzle Lunching" \
+    --tl "Weeks of Songs" \
+    --tn 63 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
