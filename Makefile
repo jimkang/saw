@@ -529,6 +529,14 @@ puzzle-lurching:
     --ta "Jim Kang" \
     --ty 2026
 
+fg:
+	lame "builds/uncompressed/FLFLAASSHFFLLAASSFHLFALS.wav" "builds/compressed/Weeks of Songs/FLFLAASSHFFLLAASSFHLFALS.mp3" \
+    --tt "FLFLAASSHFFLLAASSFHLFALS" \
+    --tl "Weeks of Songs" \
+    --tn 64 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
