@@ -537,6 +537,14 @@ fg:
     --ta "Jim Kang" \
     --ty 2026
 
+screened:
+	lame "builds/uncompressed/screened-pastoral.wav" "builds/compressed/Weeks of Songs/Screened Pastoral.mp3" \
+    --tt "Screened Pastoral" \
+    --tl "Weeks of Songs" \
+    --tn 65 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
