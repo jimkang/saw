@@ -547,8 +547,8 @@ screened:
 
 train-has-joined-the-chat:
 	lame "builds/uncompressed/interrupt.wav" "builds/compressed/Weeks of Songs/Train Has Joined the Chat.mp3" \
-    --tt "Screened Pastoral" \
-    --tl "Train Has Joined the Chat" \
+    --tt "Train Has Joined the Chat" \
+    --tl "Weeks of Songs" \
     --tn 66 \
     --ta "Jim Kang" \
     --ty 2026
