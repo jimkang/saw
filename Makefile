@@ -545,6 +545,14 @@ screened:
     --ta "Jim Kang" \
     --ty 2026
 
+train-has-joined-the-chat:
+	lame "builds/uncompressed/interrupt.wav" "builds/compressed/Weeks of Songs/Train Has Joined the Chat.mp3" \
+    --tt "Screened Pastoral" \
+    --tl "Train Has Joined the Chat" \
+    --tn 66 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
