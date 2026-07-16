@@ -553,6 +553,14 @@ train-has-joined-the-chat:
     --ta "Jim Kang" \
     --ty 2026
 
+crack-of-stones:
+	lame "builds/uncompressed/crack-of-stones.wav" "builds/compressed/Weeks of Songs/Crack of Stones.mp3" \
+    --tt "Crack of Stones" \
+    --tl "Weeks of Songs" \
+    --tn 67 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
