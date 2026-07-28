@@ -561,6 +561,14 @@ crack-of-stones:
     --ta "Jim Kang" \
     --ty 2026
 
+light-wants-out:
+	lame "builds/uncompressed/the-light-wants-out.wav" "builds/compressed/Weeks of Songs/Light Wants Out.mp3" \
+    --tt "Light Wants Out" \
+    --tl "Weeks of Songs" \
+    --tn 68 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
