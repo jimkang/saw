@@ -577,6 +577,14 @@ break-time:
     --ta "Jim Kang" \
     --ty 2026
 
+minus-world:
+	lame "builds/uncompressed/minus-worlds.wav" "builds/compressed/Weeks of Songs/Cursed Minus World.mp3" \
+    --tt "Cursed Minus World" \
+    --tl "Weeks of Songs" \
+    --tn 70 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
