@@ -593,6 +593,14 @@ cat-vortex:
     --ta "Jim Kang" \
     --ty 2026
 
+consistency:
+	lame "builds/uncompressed/eventual-consistency.wav" "builds/compressed/Weeks of Songs/Eventual Consistency.mp3" \
+    --tt "Eventual Consistency" \
+    --tl "Weeks of Songs" \
+    --tn 72 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
