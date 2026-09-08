@@ -608,7 +608,7 @@ update-plex:
 	cp -r builds/compressed/Looptober ../../Music/Jim\ Kang/
 	cd ../../Music/ && ./upload.sh
 
-back-up:
+back-up: update-plex
 	rsync -a $(HOMEDIR)/ $(USER)@$(SERVER):$(APPDIR) \
 		--exclude .git \
     --omit-dir-times \
