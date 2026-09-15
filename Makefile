@@ -601,6 +601,14 @@ consistency:
     --ta "Jim Kang" \
     --ty 2026
 
+wild-wilds:
+	lame "builds/uncompressed/wild-wilds.wav" "builds/compressed/Weeks of Songs/Wild Wilds.mp3" \
+    --tt "Wild Wilds" \
+    --tl "Weeks of Songs" \
+    --tn 73 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
