@@ -629,6 +629,7 @@ update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
 	cp -r builds/compressed/Looptober ../../Music/Jim\ Kang/
+	cp -r builds/compressed/Weeks\ of\ Songs\ extras ../../Music/Jim\ Kang/
 	cd ../../Music/ && ./upload.sh
 
 back-up: update-plex
