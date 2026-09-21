@@ -609,6 +609,21 @@ wild-wilds:
     --ta "Jim Kang" \
     --ty 2026
 
+double-kick-dungeon:
+	lame "builds/uncompressed/secret-kick-dungeon.wav" "builds/compressed/Weeks of Songs extras/Double Kick Dungeon.mp3" \
+    --tt "Double Kick Dungeon" \
+    --tl "Weeks of Songs Extras" \
+    --tn 7 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+zelda-angel-of-death-break:
+	lame "builds/uncompressed/zelda-angel-of-death-break.wav" "builds/compressed/Weeks of Songs extras/Zelda Angel of Death break.mp3" \
+    --tt "Zelda Angel of Death break" \
+    --tl "Weeks of Songs Extras" \
+    --tn 8 \
+    --ta "Jim Kang" \
+    --ty 2026
 
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
