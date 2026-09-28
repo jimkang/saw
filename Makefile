@@ -625,6 +625,14 @@ zelda-angel-of-death-break:
     --ta "Jim Kang" \
     --ty 2026
 
+immune-system:
+	lame "builds/uncompressed/immune-system.wav" "builds/compressed/Weeks of Songs extras/Attacking the Immune System.mp3" \
+    --tt "Attacking the Immune System" \
+    --tl "Weeks of Songs Extras" \
+    --tn 9 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
