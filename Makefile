@@ -633,6 +633,14 @@ immune-system:
     --ta "Jim Kang" \
     --ty 2026
 
+smoker:
+	lame "builds/uncompressed/smoker.wav" "builds/compressed/Weeks of Songs/Meditation in the Smoker.mp3" \
+    --tt "Meditation in the Smoker" \
+    --tl "Weeks of Songs" \
+    --tn 74 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
