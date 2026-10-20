@@ -622,7 +622,8 @@ zelda-angel-of-death-break:
     --tt "Zelda Angel of Death break" \
     --tl "Weeks of Songs Extras" \
     --tn 8 \
-    --ta "Jim Kang" \
+    --ta "Slayer" \
+		--tc "Rearranged by Jim Kang" \
     --ty 2026
 
 immune-system:
@@ -630,7 +631,8 @@ immune-system:
     --tt "Attacking the Immune System" \
     --tl "Weeks of Songs Extras" \
     --tn 9 \
-    --ta "Jim Kang" \
+    --ta "Masta Killa" \
+		--tc "Rearranged by Jim Kang" \
     --ty 2026
 
 smoker:
@@ -638,6 +640,41 @@ smoker:
     --tt "Meditation in the Smoker" \
     --tl "Weeks of Songs" \
     --tn 74 \
+    --ta "Jim Kang" \
+    --ty 2026
+
+into:
+	lame "builds/uncompressed/into-the-vvvv.wav" "builds/compressed/Weeks of Songs extras/Into the Phased Void.mp3" \
+    --tt "Into the Phased Void" \
+    --tl "Weeks of Songs Extras" \
+    --tn 10 \
+    --ta "Black Sabbath" \
+		--tc "Rearranged by Jim Kang" \
+    --ty 2026
+
+blood-the-spill:
+	lame "builds/uncompressed/spill.wav" "builds/compressed/Weeks of Songs extras/Blood the Spill.mp3" \
+    --tt "Blood the Spill" \
+    --tl "Weeks of Songs Extras" \
+    --tn 11 \
+    --ta "Slayer" \
+		--tc "Rearranged by Jim Kang" \
+    --ty 2026
+
+got-me-in-a-cell:
+	lame "builds/uncompressed/got-me-in-a-cell.wav" "builds/compressed/Weeks of Songs extras/Got Me in a Cell.mp3" \
+    --tt "Got Me in a Cell" \
+    --tl "Weeks of Songs Extras" \
+    --tn 12 \
+    --ta "Public Enemy" \
+		--tc "Rearranged by Jim Kang" \
+    --ty 2026
+
+annfina:
+	lame "builds/uncompressed/annfina.wav" "builds/compressed/Weeks of Songs/Annfina Harper and Fitziak Edward.mp3" \
+    --tt "Annfina Harper and Fitziak Edward" \
+    --tl "Weeks of Songs" \
+    --tn 75 \
     --ta "Jim Kang" \
     --ty 2026
 
