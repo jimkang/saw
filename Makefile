@@ -678,6 +678,14 @@ annfina:
     --ta "Jim Kang" \
     --ty 2026
 
+thicket:
+	lame "builds/uncompressed/thicket.wav" "builds/compressed/Weeks of Songs/Thicket.mp3" \
+    --tt "Thicket" \
+    --tl "Weeks of Songs" \
+    --tn 76 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
