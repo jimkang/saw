@@ -686,6 +686,14 @@ thicket:
     --ta "Jim Kang" \
     --ty 2026
 
+harkening:
+	lame "builds/uncompressed/harkening-from-video.wav" "builds/compressed/Weeks of Songs/Harkening.mp3" \
+    --tt "Harkening" \
+    --tl "Weeks of Songs" \
+    --tn 77 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
