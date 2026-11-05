@@ -694,6 +694,14 @@ harkening:
     --ta "Jim Kang" \
     --ty 2026
 
+make-your-time:
+	lame "builds/uncompressed/make-your-time.wav" "builds/compressed/Weeks of Songs/Make Your Time.mp3" \
+    --tt "Make Your Time" \
+    --tl "Weeks of Songs" \
+    --tn 78 \
+    --ta "Jim Kang" \
+    --ty 2026
+
 update-plex:
 	mkdir -p ../../Music/Jim\ Kang
 	cp -r builds/compressed/Weeks\ of\ Songs ../../Music/Jim\ Kang/
